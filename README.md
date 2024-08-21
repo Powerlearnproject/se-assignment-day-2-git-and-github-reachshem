@@ -117,6 +117,34 @@ Context for Collaborative Projects:
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
+Commits:
+Definition: A commit is a snapshot of your project's changes at a specific point in time, with a unique identifier and message describing the changes.
+
+Purpose: Commits track the history of your project, allowing you to manage different versions, revert to previous states, and collaborate effectively.
+
+Steps to Make Your First Commit:
+1.Clone the Repository:
+  Use `git clone <repository-url>` to clone the repository to your local machine.
+
+2.Navigate to the Repository:
+  `cd <repository-directory>` to move into the project directory.
+
+3.Make Changes:
+  Edit files, add new content, or modify existing code.
+
+4.Stage Changes:
+  Use `git add <file>` to stage specific files, or `git add .` to stage all changes.
+
+5.Commit Changes:
+  Use `git commit -m "Your commit message"` to create a commit with a message summarizing the changes.
+
+6.Push to GitHub:
+   - Use `git push origin <branch-name>` to push your commit to the remote repository.
+
+How Commits Help:
+- Tracking: Provides a detailed history of every change made to the project.
+- Versioning: Allows you to revert to previous versions, compare changes, and manage different development paths (branches).
+
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?

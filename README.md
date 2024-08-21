@@ -172,6 +172,24 @@ Version Control: Helps manage different versions and maintain a clean, stable ma
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
+Pull Requests in GitHub:
+Role: Pull requests (PRs) are a core part of the GitHub workflow, allowing developers to propose changes to a repository and facilitate collaboration through code review before merging those changes into the main branch.
+
+How Pull Requests Facilitate Code Review and Collaboration:
+Review: Pull Requests enable team members to review the proposed changes, provide feedback, and request modifications before the code is merged.
+Discussion: Pull Requests support threaded discussions, making it easy to discuss specific changes or issues directly within the code.
+Documentation: Pull Requests document the history of changes, decisions made during the review process, and the context behind them.
+
+Typical Steps to Create and Merge a Pull Request:
+1.Create a Branch: Develop a new feature or fix on a separate branch.
+2.Push the Branch: Push the branch to the remote repository using `git push origin <branch-name>`.
+3.Open a Pull Request: On GitHub, navigate to the repository and click "New Pull Request." Select the branch you want to merge and describe the changes in the PR description.
+4.Review and Discuss: Team members review the code, suggest changes, and discuss the implementation.
+5.Make Revisions: If requested, make revisions to the code on the same branch and push updates.
+6.Merge the Pull Request: Once approved, the PR can be merged into the target branch (e.g., main). This can be done via the GitHub interface by clicking "Merge Pull Request."
+7.Delete the Branch: Optionally, delete the branch after the PR is merged to keep the repository clean.
+
+
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
 ## Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
